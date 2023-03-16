@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Traveller Registration</title>
+  </head>
+  <body>
+    <form action="mailto:rabyn900@gmail.com?subject=hello" method="post" style="width: 40%;" enctype="text/plain">
+    </form>
+    <fieldset>
+      <legend>Register The Traveller Name</legend>
+      <p>
+        <label for="mail">Email </label>
+        <input type="email" id="mail" name="mail" placeholder="email" required>
+      </p>
+
+      <p>
+        <label for="fname">First Name </label>
+        <input type="text" id="fname" name="fname" placeholder="username" required>
+      </p>
+      <p>
+        <label for="lname">Last Name </label>
+        <input type="text" id="lname" name="lname" placeholder="username" required>
+      </p>
+
+      <p>
+      <h2>Select your gender</h2>
+      <label for="male">Male</label>
+      <input type="radio" id="male" name="gender" value="male" checked>
+      <label for="female">Female</label>
+      <input type="radio" id="female" name="gender" value="female">
+      </p>
+      <p>
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" placeholder="password" required>
+
+      </p>
+      <p>
+        <label for="confirm password">Confirm Password</label>
+        <input type="password" id="confirm password" name="confirm password" placeholder="password" required>
+      </p>
+      <p>
+      <h2>Which places do you like to vist the most.</h2>
+
+      <label for="Hilly region">Hilly Areas</label>
+      <input type="checkbox" id="Hilly region" name="Hilly region" value="Hilly region" checked>
+      <label for="Mountain region">Mountain Areas</label>
+      <input type="checkbox" id="Mountain region" name="Mountain region" value="Mountain region">
+      <label for="Terai region">Terai Areas</label>
+      <input type="checkbox" id="Terai region" name="Terai region" value="Terai region">
+      </p>
+
+      <p>
+        <label for="Fav places">Favourite places</label>
+        <select name="Fav places" id="Fav places">
+          <optgroup label="Trekking">
+            <option value="trek">Annapurna Base Camp</option>
+            <option value="trek">Upper Mustang Trek</option>
+            <option value="trek">Everest Base Camp Trek</option>
+          </optgroup>
+          <optgroup label="Famous lakes">
+            <option value="lake">Rara Lake mugu</option>
+            <option value="lake" selected>Shey Phoksundo Lake Dolpa</option>
+            <option value="lake">Gosainkunda Lake Rasuwa</option>
+            <option value="lake">Tilicho Lake Manang</option>
+            <option value="lake">Phewa lake pokhara</option>
+          </optgroup>
+          <optgroup label="Famous National Parks">
+            <option value=" national park">Chitwan National Park</option>
+            <option value="national park">Bardiya National Park</option>
+            <option value="national park">Shivapuri-Nagarjun National Park</option>
+            <option value="national park">Sagarmatha National Park</option>
+          </optgroup>
+        </select>
+      </p>
+      <p>
+        <label for="date">Registered Current Date of traveller</label>
+        <input type="date" id="date" name="date">
+      </p>
+      <p>
+        <label for=" image">Passport Photo for Foreigners</label>
+        <input type="file" accept="image/*" name="image">
+      </p>
+      <p>
+        <label for=" image">Citizenship front and Back Photo</label>
+        <input type="file" accept="image/*" name="image">
+        <input type="file" accept="image/*" name="image">
+      </p>
+      <p>
+        <label for="msg">Message</label>
+        <br>
+        <br>
+        <textarea name="msg" id="msg" cols="30" rows="10" maxlength="60"></textarea>
+      </p>
+      <p>
+        <label for="color">Colors</label>
+        <input type="color" id="color" name="color">
+      </p>
+
+      <button type="submit">Submit</button>
+      <button type="reset">Reset</button>
+
+  </body>
+</html>
